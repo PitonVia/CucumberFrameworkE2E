@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40917" started-at="2019-03-17T01:09:48Z" finished-at="2019-03-17T01:10:29Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberFrameworkGianni.testRunners.MainRunner@2038ae61]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="40917" started-at="2019-03-17T01:09:48Z" finished-at="2019-03-17T01:10:29Z">
+      <class name="cucumberFrameworkGianni.testRunners.MainRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberFrameworkGianni.testRunners.MainRunner@2038ae61]" name="setUpClass" is-config="true" duration-ms="353" started-at="2019-03-17T01:09:48Z" finished-at="2019-03-17T01:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberFrameworkGianni.testRunners.MainRunner@2038ae61]" name="feature" duration-ms="21435" started-at="2019-03-17T01:09:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-03-17T01:10:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Submit data to webdriveruniversity.com using contact us form]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberFrameworkGianni.testRunners.MainRunner@2038ae61]" name="feature" duration-ms="8709" started-at="2019-03-17T01:10:10Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-03-17T01:10:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login into account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberFrameworkGianni.testRunners.MainRunner@2038ae61]" name="feature" duration-ms="9603" started-at="2019-03-17T01:10:18Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-03-17T01:10:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Products page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:cucumberFrameworkGianni.testRunners.MainRunner@2038ae61]" name="writeExtentReport" is-config="true" duration-ms="91" started-at="2019-03-17T01:10:28Z" finished-at="2019-03-17T01:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberFrameworkGianni.testRunners.MainRunner@2038ae61]" name="tearDownClass" is-config="true" duration-ms="474" started-at="2019-03-17T01:10:28Z" finished-at="2019-03-17T01:10:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberFrameworkGianni.testRunners.MainRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

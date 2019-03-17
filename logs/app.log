@@ -1,0 +1,4 @@
+17:42:27.656 [main] INFO  filePkg.LoggingToFileDemo - Info message logged
+17:42:27.689 [main] WARN  filePkg.LoggingToFileDemo - Warning message logged
+17:42:27.689 [main] ERROR filePkg.LoggingToFileDemo - Error message logged
+17:42:27.689 [main] FATAL filePkg.LoggingToFileDemo - Fatal message logged
